@@ -1,6 +1,6 @@
 {
   "name": "reveal-animations",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Scroll reveal animations for Vue project",
   "main": "dist/revealanimations.umd.js",
   "module": "dist/revealanimations.esm.js",
