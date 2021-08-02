@@ -19,12 +19,12 @@ export default {
     // Errors
     if (bind.value) {
       if (bind.value.type === 'custom' && !bind.value.initialState) {
-        console.error('PalazzinaCreativa/revealAnimations: No initial state defined')
+        console.error('vue-reveal-animations: No initial state defined')
         return
       }
 
       if (bind.value.type === 'custom' && !bind.value.finalState) {
-        console.error('PalazzinaCreativa/revealAnimations: No final state defined')
+        console.error('vue-reveal-animations: No final state defined')
         return
       }
     }
@@ -91,7 +91,6 @@ export default {
 
 /*
 To do:
-- readme
 - timeline
 - commenti
 - altre animazioni
